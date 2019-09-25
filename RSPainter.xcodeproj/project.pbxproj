@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E2E621233B036F00836F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E620233B036F00836F93 /* AppDelegate.swift */; };
+		63E2E623233B036F00836F93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E622233B036F00836F93 /* SceneDelegate.swift */; };
+		63E2E625233B036F00836F93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E624233B036F00836F93 /* ContentView.swift */; };
+		63E2E627233B037000836F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E626233B037000836F93 /* Assets.xcassets */; };
+		63E2E62A233B037000836F93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E629233B037000836F93 /* Preview Assets.xcassets */; };
+		63E2E62D233B037000836F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E62B233B037000836F93 /* LaunchScreen.storyboard */; };
+		63E2E638233B037000836F93 /* RSPainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E637233B037000836F93 /* RSPainterTests.swift */; };
+		63E2E643233B037000836F93 /* RSPainterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E642233B037000836F93 /* RSPainterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63E2E634233B037000836F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E2E615233B036F00836F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E2E61C233B036F00836F93;
+			remoteInfo = RSPainter;
+		};
+		63E2E63F233B037000836F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E2E615233B036F00836F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E2E61C233B036F00836F93;
+			remoteInfo = RSPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63E2E61D233B036F00836F93 /* RSPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E2E620233B036F00836F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E2E622233B036F00836F93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63E2E624233B036F00836F93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63E2E626233B037000836F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E2E629233B037000836F93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63E2E62C233B037000836F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E2E62E233B037000836F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E2E633233B037000836F93 /* RSPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E2E637233B037000836F93 /* RSPainterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPainterTests.swift; sourceTree = "<group>"; };
+		63E2E639233B037000836F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E2E63E233B037000836F93 /* RSPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E2E642233B037000836F93 /* RSPainterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPainterUITests.swift; sourceTree = "<group>"; };
+		63E2E644233B037000836F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E2E61A233B036F00836F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2E630233B037000836F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2E63B233B037000836F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E2E614233B036F00836F93 = {
+			isa = PBXGroup;
+			children = (
+				63E2E61F233B036F00836F93 /* RSPainter */,
+				63E2E636233B037000836F93 /* RSPainterTests */,
+				63E2E641233B037000836F93 /* RSPainterUITests */,
+				63E2E61E233B036F00836F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E2E61E233B036F00836F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E61D233B036F00836F93 /* RSPainter.app */,
+				63E2E633233B037000836F93 /* RSPainterTests.xctest */,
+				63E2E63E233B037000836F93 /* RSPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E2E61F233B036F00836F93 /* RSPainter */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E620233B036F00836F93 /* AppDelegate.swift */,
+				63E2E622233B036F00836F93 /* SceneDelegate.swift */,
+				63E2E624233B036F00836F93 /* ContentView.swift */,
+				63E2E626233B037000836F93 /* Assets.xcassets */,
+				63E2E62B233B037000836F93 /* LaunchScreen.storyboard */,
+				63E2E62E233B037000836F93 /* Info.plist */,
+				63E2E628233B037000836F93 /* Preview Content */,
+			);
+			path = RSPainter;
+			sourceTree = "<group>";
+		};
+		63E2E628233B037000836F93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E629233B037000836F93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63E2E636233B037000836F93 /* RSPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E637233B037000836F93 /* RSPainterTests.swift */,
+				63E2E639233B037000836F93 /* Info.plist */,
+			);
+			path = RSPainterTests;
+			sourceTree = "<group>";
+		};
+		63E2E641233B037000836F93 /* RSPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E642233B037000836F93 /* RSPainterUITests.swift */,
+				63E2E644233B037000836F93 /* Info.plist */,
+			);
+			path = RSPainterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E2E61C233B036F00836F93 /* RSPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E2E647233B037000836F93 /* Build configuration list for PBXNativeTarget "RSPainter" */;
+			buildPhases = (
+				63E2E619233B036F00836F93 /* Sources */,
+				63E2E61A233B036F00836F93 /* Frameworks */,
+				63E2E61B233B036F00836F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSPainter;
+			productName = RSPainter;
+			productReference = 63E2E61D233B036F00836F93 /* RSPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63E2E632233B037000836F93 /* RSPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E2E64A233B037000836F93 /* Build configuration list for PBXNativeTarget "RSPainterTests" */;
+			buildPhases = (
+				63E2E62F233B037000836F93 /* Sources */,
+				63E2E630233B037000836F93 /* Frameworks */,
+				63E2E631233B037000836F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E2E635233B037000836F93 /* PBXTargetDependency */,
+			);
+			name = RSPainterTests;
+			productName = RSPainterTests;
+			productReference = 63E2E633233B037000836F93 /* RSPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63E2E63D233B037000836F93 /* RSPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E2E64D233B037000836F93 /* Build configuration list for PBXNativeTarget "RSPainterUITests" */;
+			buildPhases = (
+				63E2E63A233B037000836F93 /* Sources */,
+				63E2E63B233B037000836F93 /* Frameworks */,
+				63E2E63C233B037000836F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E2E640233B037000836F93 /* PBXTargetDependency */,
+			);
+			name = RSPainterUITests;
+			productName = RSPainterUITests;
+			productReference = 63E2E63E233B037000836F93 /* RSPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E2E615233B036F00836F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = RedSailfish;
+				TargetAttributes = {
+					63E2E61C233B036F00836F93 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					63E2E632233B037000836F93 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 63E2E61C233B036F00836F93;
+					};
+					63E2E63D233B037000836F93 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 63E2E61C233B036F00836F93;
+					};
+				};
+			};
+			buildConfigurationList = 63E2E618233B036F00836F93 /* Build configuration list for PBXProject "RSPainter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E2E614233B036F00836F93;
+			productRefGroup = 63E2E61E233B036F00836F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E2E61C233B036F00836F93 /* RSPainter */,
+				63E2E632233B037000836F93 /* RSPainterTests */,
+				63E2E63D233B037000836F93 /* RSPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E2E61B233B036F00836F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E62D233B037000836F93 /* LaunchScreen.storyboard in Resources */,
+				63E2E62A233B037000836F93 /* Preview Assets.xcassets in Resources */,
+				63E2E627233B037000836F93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2E631233B037000836F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2E63C233B037000836F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E2E619233B036F00836F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E621233B036F00836F93 /* AppDelegate.swift in Sources */,
+				63E2E623233B036F00836F93 /* SceneDelegate.swift in Sources */,
+				63E2E625233B036F00836F93 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2E62F233B037000836F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E638233B037000836F93 /* RSPainterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2E63A233B037000836F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E643233B037000836F93 /* RSPainterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63E2E635233B037000836F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E2E61C233B036F00836F93 /* RSPainter */;
+			targetProxy = 63E2E634233B037000836F93 /* PBXContainerItemProxy */;
+		};
+		63E2E640233B037000836F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E2E61C233B036F00836F93 /* RSPainter */;
+			targetProxy = 63E2E63F233B037000836F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63E2E62B233B037000836F93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E2E62C233B037000836F93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E2E645233B037000836F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63E2E646233B037000836F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E2E648233B037000836F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RSPainter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SU8CNQD6B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RSPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaso.RSPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E2E649233B037000836F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RSPainter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SU8CNQD6B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RSPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaso.RSPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63E2E64B233B037000836F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SU8CNQD6B;
+				INFOPLIST_FILE = RSPainterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaso.RSPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSPainter.app/RSPainter";
+			};
+			name = Debug;
+		};
+		63E2E64C233B037000836F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SU8CNQD6B;
+				INFOPLIST_FILE = RSPainterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaso.RSPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSPainter.app/RSPainter";
+			};
+			name = Release;
+		};
+		63E2E64E233B037000836F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SU8CNQD6B;
+				INFOPLIST_FILE = RSPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaso.RSPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSPainter;
+			};
+			name = Debug;
+		};
+		63E2E64F233B037000836F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SU8CNQD6B;
+				INFOPLIST_FILE = RSPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaso.RSPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E2E618233B036F00836F93 /* Build configuration list for PBXProject "RSPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E2E645233B037000836F93 /* Debug */,
+				63E2E646233B037000836F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E2E647233B037000836F93 /* Build configuration list for PBXNativeTarget "RSPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E2E648233B037000836F93 /* Debug */,
+				63E2E649233B037000836F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E2E64A233B037000836F93 /* Build configuration list for PBXNativeTarget "RSPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E2E64B233B037000836F93 /* Debug */,
+				63E2E64C233B037000836F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E2E64D233B037000836F93 /* Build configuration list for PBXNativeTarget "RSPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E2E64E233B037000836F93 /* Debug */,
+				63E2E64F233B037000836F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E2E615233B036F00836F93 /* Project object */;
+}
